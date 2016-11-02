@@ -7,7 +7,15 @@ GET     /                           controllers.HomeController.index
 
 GET     /home                       controllers.BreakfastAppController.home
 
-GET     /newPage                       controllers.BreakfastAppController.newPage
+GET     /newPage                    controllers.BreakfastAppController.newPage
+
+GET     /landing                    controllers.HomePageController.landing()
+
+GET     /newPage2                   controllers.NewPage2Controller.newPage2()
+
+GET     /newPage3                   controllers.NewPage3Controller.newPage3()
+
+GET     /newPage4                   controllers.NewPage4Controller.newPage4()
 
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count

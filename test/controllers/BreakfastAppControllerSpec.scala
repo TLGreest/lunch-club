@@ -51,4 +51,5 @@ class BreakfastAppControllerSpec extends PlaySpec with OneAppPerSuite {
   }
 
 
+
 }
